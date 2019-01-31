@@ -59,6 +59,8 @@ The following are additional characteristics of the Location-Based Routing for C
 
 - A PBX system connected to a Mediation Server over a SIP trunk that does not egress calls to the PSTN will have the same enforcements as Skype for Business users located in the same network site where the SIP trunk is defined. For example, a PSTN endpoint will be able to join a conference with a PBX user and a Skype for Business user if they are located in the same network site; otherwise, the PSTN endpoint will not be allowed to join the conference if the PBX user is in a different network site than the Skype for Business user.
 
+- PSTN participant can be invited into the meeting only if at least one endpoint is connected to the meeting with audio modality.
+
 > [!NOTE]
 > With Skype for Business Cumulative Update 4, the behavior in the following table should be observed:
 
